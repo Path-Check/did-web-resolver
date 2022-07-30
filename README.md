@@ -13,7 +13,10 @@ npm install @pathcheck/did-web-resolver --save
 ## 1. Resolving
 
 ```js
-import {resolve} from '@pathcheck/did-web-resolver';
+import { resolve } from '@pathcheck/did-web-resolver'
+
+let result = await resolve('did:web:...')
+result.didDocument
 ```
 
 # Development
