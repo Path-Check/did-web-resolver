@@ -1,5 +1,5 @@
-const { resolve } = require('../lib/index')
-const expect = require('chai').expect
+import { resolve } from '../lib/main.js'
+import { expect } from 'chai'
 
 describe('Subdirectory', function () {
   it('should not resolve non existing domains', async function () {
